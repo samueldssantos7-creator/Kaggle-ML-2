@@ -126,7 +126,7 @@ def main():
 
     # --- ABA 3: APENAS SHAP (Matplotlib seguro) ---
     with tab3:
-        st.subheader("Como você pensa? (SHAP — Matplotlib seguro)")
+        st.subheader("Como você pensa?")
 
         # Treinar / Carregar modelo rápido (necessário para mostrar o gráfico Matplotlib)
         features = ['Avg_Temperature(°C)', 'CO2_Emissions(Mt)', 'Sea_Level_Rise(mm)']
@@ -204,3 +204,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
